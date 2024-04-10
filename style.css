@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 *{
@@ -29,6 +30,10 @@ nav
     color: aliceblue;
 }
 
+a
+{
+    text-decoration: none;
+}
 .img1
 {
     width: 100%;
@@ -62,7 +67,7 @@ footer
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
     gap: 10px;
-    grid-auto-rows: minmax(100px,auto);
+    grid-auto-rows: minmax(110px,auto);
     grid-auto-columns: minmax(100px,auto);
     align-content: stretch;
 }
@@ -98,7 +103,11 @@ footer
     grid-column-start: 7;
     grid-column-end: 12;
     font-size: 25px;
+}
 
+.img5
+{
+    height: 400px;
 }
 
 .moment
@@ -124,6 +133,7 @@ footer
 }
 
 
+/* 
 @media screen and (min-width: 360px) and (min-height: 740px) 
 {
     
@@ -248,4 +258,181 @@ footer
     height: 200px;
 }
 
+} */
+
+#login
+{
+    font-size: 2.5rem;
+    margin: 2rem 0.5rem 0rem;
+    color: rgb(50, 50, 119);;
+}
+
+.containerl
+{
+    display: flex;
+    width: 24rem;
+    min-height: 25rem;
+    background-color: aliceblue;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 6.2rem 28rem;
+    box-shadow: 10px 20px 30px rgb(174, 173, 173);
+}
+ 
+.childl
+{
+    width: 18rem;
+    height: 2rem;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    margin: 0.2rem;
+    border: none;
+    font-size: 1rem;
+
+} 
+
+#loginbtn
+{
+    width: 18rem;
+    height: 2.7rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    background-color: rgb(214, 225, 235);
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+}
+
+
+#newbtn
+{
+    width: 18rem;
+    height: 2.7rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0.1rem 0.5rem 3rem 0.5rem;
+    background-color: rgb(214, 225, 235);
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.containerevent
+{
+    display: inline-flex;
+    justify-content: space-around;
+    gap: 0.3rem;
+    width: 79rem;
+}
+
+.event
+{
+    width: 16rem;
+    height: 15rem;
+    background-color: rgb(249, 252, 254);
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 8px 8px 10px rgb(225, 238, 250);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#register-now
+{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(217, 217, 224);
+    background-color:rgb(50, 50, 119);
+    padding: 1rem;
+}
+
+.ename
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1rem;
+    color:rgb(50, 50, 119);
+}
+
+.descevent
+{
+    font-size: 0.8rem;
+    margin: -0.5rem 1rem 0.5rem 1rem;
+    font-display: justify;
+}
+
+.venueevent
+{
+    font-size: 1rem;
+    margin: 0.5rem 1rem;   
+}
+
+a #imgplus
+{
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 13rem;
+    margin-top: -0.2rem;
+    align-content: flex-end;
+}
+.container-newacc
+{
+    width: 25rem;
+    height: 35rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 30px rgb(210, 209, 209);
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 3rem 28rem;
+}
+
+.container-newacc-child
+{
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: 1px gainsboro;
+    width: 18rem;
+}
+
+.flexxacc
+{
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-newacc-child2
+{
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: 1px gainsboro;
+    width: 11rem;
+}
+
+.createheading
+{
+    font-size: 2rem;
+    color: rgb(50, 50, 119);
+    padding: 1rem;
+}
+
+.createbtn
+{
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    width: 18rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(214, 225, 235);
 }
