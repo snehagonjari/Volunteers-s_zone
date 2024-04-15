@@ -499,7 +499,7 @@ a #imgplus
 
 .container-newacc
 {
-    width: 90%;
+    width: 80%;
     height: auto;
     background-color: aliceblue;
     box-shadow: 8px 8px 10px rgb(225, 238, 250);
@@ -509,6 +509,7 @@ a #imgplus
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    padding: 10%;
 }
 
 .container-newacc-child
@@ -516,7 +517,7 @@ a #imgplus
     padding: 1.2rem;
     border-radius: 1rem;
     border: 1px gainsboro;
-    width: 80%;
+    width: 75%;
 }
 
 .flexxacc
