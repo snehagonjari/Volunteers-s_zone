@@ -509,8 +509,7 @@ a #imgplus
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10%;
-    margin-top: 20%;
+    margin: 10%;
 }
 
 .container-newacc-child
