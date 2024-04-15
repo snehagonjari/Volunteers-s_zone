@@ -348,13 +348,13 @@ nav
 {
     color: aliceblue;
     font-size: 25px;
-    margin-right: 15%;
+    margin-right: 13%;
 }
 
 .img1
 {
     width: 100%;
-    height: 900px;
+    height: 1000px;
     mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
 }
 
@@ -509,7 +509,7 @@ a #imgplus
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    margin: 10%;
+    margin: 10% 10%;
 }
 
 .container-newacc-child
