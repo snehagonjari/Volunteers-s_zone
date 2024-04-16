@@ -406,10 +406,10 @@ footer
 
 .moment
 {
+    color: goldenrod;
     font-size: 5rem;
     color: goldenrod;
-    padding: 3px 0px;
-    margin-left: 3px;
+    padding: 10px 15px;
 }
 
 .img4
