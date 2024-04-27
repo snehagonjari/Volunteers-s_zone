@@ -361,7 +361,7 @@ nav
 
 .about
 {
-    font-size: 5rem;
+    font-size: 6rem;
     color: goldenrod;
     padding: 10px 15px;
 }
@@ -389,14 +389,14 @@ footer
 
 #item1
 {
-    font-size: 18px;
+    font-size: 23px;
 }
 
 #item2
 {
     margin-top: 1rem;
     padding: 0.5rem;
-    font-size:1.5rem ;
+    font-size:2.5rem ;
 }
 
 #item3
