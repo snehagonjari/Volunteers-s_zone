@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration-body">
+    <form method="post" name="submit-to-google-sheet">
+        <div class="container-newacc">
+        <p class="createheading">Register</p>
+        <input type="text" id="Name" name="Name" placeholder="Name" required class="container-newacc-child">
+        <input type="email" id="email" name="email" placeholder="Email" required class="container-newacc-child">
+        <input type="text" id="address" name="address" placeholder="Address" required class="container-newacc-child">
+        <input type="number" id="con-no" name="contact" placeholder="Contact Number" required class="container-newacc-child">
+        
+        <div class="flexxacc">
+            <p>Date of Birth</p>
+            <input type="date" id="dob" name="dob" placeholder="Date of Birth"ate of birth value="d" required class="container-newacc-child2">
+        </div>
+        <input type="submit" value="Register" class="createbtn">
+    </form>
+</div>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwXGa_ik7RVtaXalXjW4pcYxoo7vo9JkW9z2Ya0yoPP497rZ4EUdkMsiGPb0akvlkKj/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
