@@ -41,6 +41,14 @@ a
     mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
 }
 
+.tagline
+{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 2rem;
+    color: white;
+}
 section
 {
     width: 100%;
@@ -119,7 +127,7 @@ footer p{
 {
     font-size: 50px;
     color: goldenrod;
-    padding: 10px 0px;
+    padding: 10px 1px;
     margin-left: 30px;
 }
 
@@ -369,6 +377,16 @@ nav
     mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
 }
 
+.tagline
+{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    text-align: center;
+    font-size: 4rem;
+    color: #ede9e9;
+    font-style: oblique;
+}
 .about
 {
     font-size: 6rem;
