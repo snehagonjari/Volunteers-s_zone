@@ -25,15 +25,17 @@
 </div>
 </div>
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxHi0RPBGNoLn-J_VDzYeOHlxaf1faxLgB4ObdLE-9BvAfB4pA1wBBROu5yqeEINIDp/exec'
-    const form = document.forms['submit-to-google-sheet']
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => alert('Success!', response))
-        .catch(error => console.error('Error!', error.message))
-    })
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwMTpCSBdNK5mQlu0KqNMw2BPEGjlEH8ho_kyjtn2MkvlyoEXt2KsGWddqfWHGbMRO4/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+
   </script>
 </body>
 </html>
+
